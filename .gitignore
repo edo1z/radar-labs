@@ -1,0 +1,27 @@
+# Per-experiment local state — never publish
+**/.env
+**/.env.local
+**/secrets/
+**/__pycache__/
+**/node_modules/
+**/.venv/
+**/dist/
+**/build/
+**/.pytest_cache/
+**/.next/
+**/.cache/
+
+# Heavy artifacts — track outputs as small fixtures only
+**/*.zip
+**/*.tar
+**/*.tar.gz
+**/*.pt
+**/*.bin
+**/models/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

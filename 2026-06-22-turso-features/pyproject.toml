@@ -1,0 +1,11 @@
+[project]
+name = "turso-features-check"
+version = "0.0.1"
+description = "Try each feature Turso (the new Rust-based SQLite-compatible DB) advertises on its README, and write down what actually happens."
+requires-python = ">=3.10"
+dependencies = [
+  "pyturso",
+]
+
+[tool.uv]
+managed = true
